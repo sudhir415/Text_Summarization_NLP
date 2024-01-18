@@ -8,13 +8,11 @@ data_ingestion:
 
 
 
-# data_validation:
-#   root_dir: artifacts/data_validation
-#   STATUS_FILE: artifacts/data_validation/status.txt
-#   ALL_REQUIRED_FILES: ["train", "test", "validation"]
-#  https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip 
-#https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
-#https://github.com/sudhir415/Text_Summarization_NLP/raw/main/samsumdata.zip  
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train", "test", "validation"] 
+
 
 
 # data_transformation:
