@@ -1,5 +1,5 @@
 from src.textSummarizer.config.configuration import ConfigurationManager
-from src.textSummarizer.conponents.data_validation import DataValiadtion
+from src.textSummarizer.components.data_validation import DataValiadtion
 from src.textSummarizer.logging import logger 
 
 
