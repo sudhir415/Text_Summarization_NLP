@@ -18,7 +18,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Text-Summarization
+https://github.com/sudhir415/Text_Summarization_NLP
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -90,7 +90,7 @@ Email: sudhirmalik415@gmail.com
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s
+    - Save the URI: public.ecr.aws/d1r3d5l9/text-s
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -124,8 +124,8 @@ Email: sudhirmalik415@gmail.com
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = ap-southeast-2
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = public.ecr.aws/d1r3d5l9/text-s
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = text-s
