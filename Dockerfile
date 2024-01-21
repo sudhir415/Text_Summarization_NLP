@@ -5,7 +5,6 @@ WORKDIR /app
 
 COPY . /app
 
-RUN python3 -m pip install --upgrade pip
 RUN pip install -r requirements.txt
 RUN pip install --upgrade accelerate
 RUN pip uninstall -y transformers accelerate
